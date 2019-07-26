@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    </head>
+    <body>
+        <form class="p-5">
+            <div class="row">
+                <label for="repo">
+                    Repo URL
+                </label>
+                <input class="ml-auto"  type="url" id="repo">
+            </div>
+            <div class="row">
+                <label for="token">
+                    Github token
+                </label>
+                <input class="ml-auto" type="text" id="token">
+            </div>
+            <div id="status"></div>
+            <button class="btn btn-primary float-right my-2" id="save">Save</button>
+            <script src="options.js"></script>
+        </form>
+    </body>
+</html>
